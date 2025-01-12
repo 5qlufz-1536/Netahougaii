@@ -1,0 +1,44 @@
+{
+  "assets": {
+    "sources": [
+      "src/main/resources"
+    ]
+  },
+  "schemaVersion": 1,
+  "id": "netahougaii",
+  "version": "${version}",
+  "name": "netahougaiidesuyo(w)",
+  "description": "寝た方が良いですよ（笑） Fabric 1.20.1",
+  "mixins": [
+    "netahougaii.mixin.json"
+  ],
+  "authors": [
+    "saluf",
+    "[SpecialThanks] gamaou"
+  ],
+  "contact": {
+    "repo": "https://github.com/5qlufz-1536/Netahougaii"
+  },
+  "license": "MIT",
+  "icon": "assets/netahougaii/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.saluf.netahougaii.NetahougaiiMod"
+    ],
+    "modmenu": [
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "modmenu": ">=6.0.0"
+  },
+  "custom": {
+    "mixin": {
+      "config": "netahougaii.mixins.json",
+      "debug": true
+    }
+  }
+}
