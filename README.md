@@ -11,7 +11,7 @@
 - Fabric API 0.88.x 以上
 - modmenu 6.0.0 以上
 
-## 使用方法
+## 使用方法<説明書>
 
    - 表示方法変更
    ```
@@ -26,6 +26,8 @@
     /Netahougaii set_message <hour> <message>
     /Netahougaii reset_message
    ```
+   
+   23-2時の間一時間刻みで時報が流れます
 
 
 ## 注意事項
