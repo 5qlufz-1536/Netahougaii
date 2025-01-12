@@ -14,12 +14,18 @@
 ## 使用方法
 
    - 表示方法変更
+   ```
     /Netahougaii set_mode <ALWAYS, SHOW_ONCE, OVERWORLD_ONLY, HIDE>
+   ```
    - 音楽のボリューム
+   ```
     /Netahougaii set_volume <0-100>
+   ```
    - サブタイトルのテキストの変更
+   ```
     /Netahougaii set_message <hour> <message>
     /Netahougaii reset_message
+   ```
 
 
 ## 注意事項
