@@ -8,7 +8,7 @@
   "id": "netahougaii",
   "version": "${version}",
   "name": "netahougaiidesuyo(w)",
-  "description": "寝た方が良いですよ（笑） Fabric 1.20.1",
+  "description": "寝た方が良いですよ（笑） Fabric 1.20",
   "mixins": [
     "netahougaii.mixin.json"
   ],
